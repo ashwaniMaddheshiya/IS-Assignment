@@ -1,0 +1,39 @@
+.balanceCard{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    border-radius: 13px;
+    height: 8rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5% 0 0 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.balanceDetails {
+    display: flex;
+    justify-content: space-around;
+}
+
+.balanceCard span{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+.balanceCard h3{
+    font-size: large;
+    color: black;
+}
+
+.btn {
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: #800080;
+    letter-spacing: 0.5px;
+    align-self: center;
+}

@@ -1,0 +1,30 @@
+.procedure {
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    flex-wrap: wrap;
+    width: 45rem;
+    margin-left: 1%;
+
+}
+
+.procedure ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 15rem;
+}
+
+.procedure h4{
+    color: black;
+}
+
+.procedure ul li{
+    list-style-type: none;
+    width: 16rem;
+    font-size: 14px;
+    margin: 8px 10px 0px 55px;
+
+}
+.procedure p{
+    color: #4d4d4d;
+}

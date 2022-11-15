@@ -1,0 +1,20 @@
+.referal__card{
+    width: 15rem;
+    height: 6rem;
+    margin: 5% 12% 0 2%;
+    
+}
+
+.referal__card h3{
+    letter-spacing: 1px;
+}
+
+.referal__code{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45%;
+    border-radius: 9px;
+    margin-top: 10px;
+}

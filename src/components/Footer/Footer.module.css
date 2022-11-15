@@ -1,0 +1,7 @@
+.candidateList {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 10px;
+    overflow: hidden;
+}

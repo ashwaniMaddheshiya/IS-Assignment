@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BalanceCard from "./components/Card/BalanceCard";
+import ReferalCard from "./components/Card/ReferalCard";
+import NavBar from "./components/NavBar/NavBar";
+import Procedures from "./components/BodyTexts/Procedures";
+import Footer from "./components/Footer/Footer";
+import OpenedPage from "./components/OpenedPage/OpenedPage";
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <div className="App__mid">
+        <OpenedPage/>
+        <section>
+          <BalanceCard />
+          <ReferalCard />
+        </section>
+        <Procedures />
+      <Footer />
+
+      </div>
+      
     </div>
   );
 }
